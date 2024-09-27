@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-      <h1>TIRED OF BORING LOREM IPSUM?</h1>
+      <h1 className="text-4xl text-orange-800 font-medium">TIRED OF BORING LOREM IPSUM?</h1>
       <div className="input-cont mx-auto mt-4 flex w-3/4 justify-center items-center gap-2">
         <p className="text-3xl text-neutral-600">Paragraphs:</p>
         <input onChange={(e)=>{setparaCount(e.target.value)}} className="w-14 h-10 text-black px-2" min={0} type="number"/>
